@@ -2892,10 +2892,10 @@ bool get kUseCompatibleUiMode =>
 bool get isWin10 => windowsBuildNumber.windowsVersion == WindowsTarget.w10;
 
 class ServerConfig {
-  late String idServer;
-  late String relayServer;
-  late String apiServer;
-  late String key;
+  late String idServer = "18.228.12.105";
+  late String relayServer = '18.228.12.105';
+  late String apiServer = 'http://18.228.12.105';
+  late String key = "RMXPmEYyQynlGNBJMwEhgt+oQlXwVdRFIYLzd9zwmi0=";
 
   ServerConfig(
       {String? idServer, String? relayServer, String? apiServer, String? key}) {
